@@ -375,7 +375,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 }
 
 .family-person {
-	height: 200px;
+	min-height: 200px;
 	margin-left: 5px;
 	margin-top: 5px;
 }
@@ -388,4 +388,9 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
+}
+
+.family-person img.social {
+	width: 32px;
+	height: 32px;
 }
