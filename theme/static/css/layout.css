@@ -127,7 +127,6 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #container{
 	padding:30px 0;
-	border-bottom:1px dotted #666;
 	}
 
 #content{
@@ -135,6 +134,19 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	float:left;
 	width:630px;
 	}
+
+#content .dotted-line {
+	width:630px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* ------Article------*/
+
+.article span.author {
+	font-weight: bold;
+}
 
 /* ------Comments-----*/
 
@@ -228,6 +240,10 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	font-size:20px;
 	}
 
+#column h3{
+	padding-top: 10px;
+	}
+
 #column .holder h2.title{
 	display:block;
 	width:100%;
@@ -299,7 +315,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	border:1px solid #666666;
 	}
 
-#column #featured li h2{
+#column #featured li h2, #column #featured li h3{
 	margin:0;
 	padding:0 0 14px 0;
 	font-size:20px;
@@ -319,6 +335,24 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	text-align:right;
 	line-height:normal;
 	}
+
+/*-----Tag Cloud-----*/
+
+#tag-cloud a.tag-1, #tag-cloud a.tag-2, #tag-cloud a.tag-3, #tag-cloud a.tag-4{
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 2px 2px 2px 2px;
+	color: #666666;
+	background: none;
+	text-decoration: none;
+	border-bottom-style: hidden;
+}
+
+.tag-4 {font-size: 14px;}
+.tag-3 {font-size: 16px;}
+.tag-2 {font-size: 18px;}
+.tag-1 {font-size: 20px;}
 
 /* ----------------------------------------------Footer-------------------------------------*/
 

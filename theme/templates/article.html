@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 {% block pagetitle %}{{ article.title }}{% endblock %}
+{% block sidebar %}{% include "blogsidebar.html" %}{% endblock %}
 {% block content %}
 <div class="article">
 	<h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
 	<p class="meta">
-		<p id="post-author">Posted by: {{ article.author }} on {{ article.local_date }}</p>
+		<p id="post-author">Posted by: <span class="author">{{ article.author }}</span> on {{ article.date.strftime('%Y-%m-%d') }}</p>
 		<p id="post-category">Filed under: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></p>
 		<p id="post-tags">
 	<div class="entry">

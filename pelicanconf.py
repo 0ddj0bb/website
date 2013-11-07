@@ -28,13 +28,24 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 5
 THEME = 'theme'
 
-EXTRA_PATH_METADATA = {
-    'extra/CNAME': {'path': 'CNAME'},
-    }
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
-STATIC_PATHS = [
-    'extra/CNAME',
-]
+DIRECT_TEMPLATES = (
+    'index', 
+    'tags', 
+    'categories', 
+    'archives',
+    'news',
+)
+
+PAGINATED_DIRECT_TEMPLATES = (
+    'index',
+    'news',
+)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Enable code highlighting     
+MD_EXTENSIONS = (['codehilite(css_class=codehilite)'])

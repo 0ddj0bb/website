@@ -1,0 +1,6 @@
+<div id="tag-cloud">
+	<h3>Tag Cloud</h3>
+    {% for tag in tag_cloud %}
+        <a class="tag-{{ tag.1 }}" href="/tag/{{ tag.0 }}.html">{{ tag.0 }}</a>
+    {% endfor %}
+</div>
