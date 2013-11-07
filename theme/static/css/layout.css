@@ -8,7 +8,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 @import url(navi.css);
 @import url(forms.css);
-@import url(tables.css);
+/* @import url(tables.css); */
 @import url(featured_slide.css);
 
 body{
@@ -333,50 +333,59 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 /* ----------------------------------------------Family Page-------------------------------------*/
 
-#the-family {
-	border-style: hidden;
-}
-
-#the-family td {
-	margin: 5px;
-	border-style: hidden;
-}
-
-#the-family tr {
-	height: 200px;
-}
-
-.rotate {
+.aside {
 	position: relative;
-	top: 20px;
-	height: 100%;
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-.person-team-name {
+.aside h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px;
 	text-align: center;
-	background-color: #2E2E2E;
-	width: 50px;
+	margin: 0 0 10px 0;
+	line-height: 24px;
 }
 
-.person-position {
-	background-color: #424242;
-	width: 50px;
-	text-align: center;
+.csstransforms .aside {
+	border-left: 34px solid #252525;
+    padding-left: 10px;
 }
 
-.person-profile {
-	float:left;
-	width: 100%;
-	padding: 20px;
+.csstransforms .aside h3 {
+        /* Abs positioning makes it not take up vert space */ 
+        position: absolute;
+        padding-left: 5px;
+        text-align: center;
+        top: 0;
+        left: 0;
+        
+        /* Rotate from top left corner (not default) */
+        -webkit-transform-origin: 0 0;
+        -moz-transform-origin:    0 0;
+        -ms-transform-origin:     0 0;
+        -o-transform-origin:      0 0;
+        
+        -webkit-transform: rotate(90deg); 
+        -moz-transform:    rotate(90deg); 
+        -ms-transform:     rotate(90deg); 
+        -o-transform:      rotate(90deg); 
+}
+.csstransforms .aside .family-person {
+	border-left-color: #515151;
 }
 
-.person-pic {float: left;}
-.person-info {
-	vertical-align: top;
-	float: left;
+.family-person {
+	height: 200px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.family-person img.profile {
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+	box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
 }
