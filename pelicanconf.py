@@ -28,8 +28,12 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 5
 THEME = 'theme'
 
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    }
+
 STATIC_PATHS = [
-    'CNAME',
+    'extra/CNAME',
 ]
 
 # Uncomment following line if you want document-relative URLs when developing
