@@ -10,8 +10,8 @@ DoFler is a "Wall of Ewes" clone designed to be used at conferences, gatherings,
 
 ## LOISC (Low Orbit Ion Shmooball Cannon)
 
-Developed on-site at Shmoocon 8.  LOISC was intended to be a bit of a dirty hack to get around the issue with the virtual ShmooBalls that were being used instead of real-life ShmooBalls of year's past.  The code works by flooding Shmoocon's virtual ShmooBall firing service with a large number of valid shmoocon codes all at the same time.  This would force the Moose airhorn to fire.
+Developed on-site at ShmooCon 8.  LOISC was intended to be a bit of a dirty hack to get around the issue with the virtual ShmooBalls that were being used instead of real-life ShmooBalls of year's past.  The code works by flooding Shmoocon's virtual ShmooBall firing service with a large number of valid ShmooCon codes all at the same time.  This would force the Moose air-horn to fire.
 
-The LOISC has by some people been directly credited as to why physical ShmooBalls returned at ShmooCon 9, as during testing, the LOISC and it's shellcode prototypes caused the airhorn to blow every 10 minutes for most of Friday's talks that year.  Even after limiters were put in place (could only fire the horn once every hour) LOISC was still causing track 1 to fire the air horn in almost every talk.
+The LOISC has by some people been directly credited as to why physical ShmooBalls returned at ShmooCon 9, as during testing, the LOISC and it's shell-script prototypes caused the air-horn to blow every 10 minutes for most of Friday's talks that year.  Even after limiters were put in place (could only fire the horn once every hour) LOISC was still causing track 1 to fire the air horn in almost every talk.
 
 [GitHub Page](http://github.com/stevemcgrath/loisc)
