@@ -426,6 +426,7 @@ img.profile {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
+	width: 73px;
 }
 
 img.social {
@@ -436,7 +437,7 @@ img.social {
 /* ----------------------------------------------Homepage Image Fest---------------------------------------------- */
 
 #homepage-imgfest {
-	height: 250px;
+	height: 200px;
 	width: 100%;
 	display: inline-block;
 }
