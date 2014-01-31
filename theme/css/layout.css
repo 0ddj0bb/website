@@ -418,7 +418,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	margin-top: 5px;
 }
 
-.family-person img.profile {
+img.profile {
 	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
 	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
 	box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
@@ -428,7 +428,21 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	border-radius: 20px;
 }
 
-.family-person img.social {
+img.social {
 	width: 32px;
 	height: 32px;
+}
+
+/* ----------------------------------------------Homepage Image Fest---------------------------------------------- */
+
+#homepage-imgfest {
+	height: 250px;
+	width: 100%;
+	display: inline-block;
+}
+
+#homepage-imgfest img{
+	display: block;
+	float: left;
+	text-align: none;
 }
