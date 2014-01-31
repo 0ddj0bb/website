@@ -27,5 +27,6 @@ save_as: index.html
 * Speak at Conferences
 * Mentor other Hackers
 * Help the Community
+* Hack all the Things!
 
 # We are La DoSa Nostra.
