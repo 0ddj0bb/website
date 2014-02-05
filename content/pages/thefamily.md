@@ -52,12 +52,6 @@ The whole idea evolved from Dr. BearSec's reference to "the family" who are the 
     </div>
     <div class="aside family-person">
         <h3>Soldier</h3>
-        <img class="profile" src="https://pbs.twimg.com/profile_images/2382509243/ph9nrn1w45aqbu4au3hm_bigger.gif" />
-        <h2>Johnny Xmas</h2>
-        <a href="http://twitter.com/J0hnnyXm4s"><img class="social" src="/theme/images/social/com.twitter.android.png"></a>
-    </div>
-    <div class="aside family-person">
-        <h3>Soldier</h3>
         <img class="profile" src="https://pbs.twimg.com/profile_images/3608979320/8404ab1be1e2e61964ac3f7f50f32aaa_bigger.jpeg" />
         <h2>Babs</h2>
         <a href="http://twitter.com/Babs0Matic"><img class="social" src="/theme/images/social/com.twitter.android.png"></a>
